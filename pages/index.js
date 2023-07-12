@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Sidebar from "../components/Sidebar";
 
 export default function Home() {
   return (
@@ -11,6 +12,16 @@ export default function Home() {
           href="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-logo-vector-png-clipart-1.png"
         />
       </Head>
+      <main className="flex min-h-screen max-w-7xl mx-auto">
+        {/* Sidebar */}
+        <Sidebar />
+
+        {/* Feed */}
+
+        {/* Widgets */}
+
+        {/* Modal */}
+      </main>
     </div>
   );
 }
